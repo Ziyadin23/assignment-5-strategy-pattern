@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-label="Strategy Pattern UML class diagram">
+<rect width="100%" height="100%" fill="white"/>
+<text x="720" y="42" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="30" text-anchor="middle" fill="#111827">Strategy Pattern Calculator</text>
+<rect x="70" y="75" width="520" height="120" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="72" y="77" width="516" height="74" fill="#eef2f7"/>
+<text x="330.0" y="103" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="21" text-anchor="middle" fill="#111827">«Client»</text>
+<text x="330.0" y="135" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">Main</text>
+<polyline points="70,151 590,151" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="86" y="185" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+main(args: String[]): void</text>
+<rect x="850" y="75" width="520" height="120" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="852" y="77" width="516" height="74" fill="#eef2f7"/>
+<text x="1110.0" y="103" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="21" text-anchor="middle" fill="#111827">«Client»</text>
+<text x="1110.0" y="135" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">ExtensionDemo</text>
+<polyline points="850,151 1370,151" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="866" y="185" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+main(args: String[]): void</text>
+<polyline points="330,195 330,240 540,240 540,285" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="7 5"/>
+<polyline points="532,272 540,285 548,272" fill="none" stroke="#374151" stroke-width="2"/>
+<polyline points="1110,195 1110,240 900,240 900,285" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="7 5"/>
+<polyline points="892,272 900,285 908,272" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="350" y="226" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="21" text-anchor="start" fill="#111827">configures</text>
+<text x="940" y="226" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="21" text-anchor="start" fill="#111827">configures</text>
+<rect x="350" y="285" width="740" height="212" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="352" y="287" width="736" height="50" fill="#eef2f7"/>
+<text x="720.0" y="321" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">Calculator</text>
+<polyline points="350,337 1090,337" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="366" y="371" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">-strategy: OperationStrategy</text>
+<text x="366" y="401" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+Calculator(strategy: OperationStrategy)</text>
+<text x="366" y="431" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+setStrategy(strategy: OperationStrategy): void</text>
+<text x="366" y="461" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+calculate(left: double, right: double): double</text>
+<polyline points="720,497 720,565" fill="none" stroke="#374151" stroke-width="2"/>
+<polyline points="712,552 720,565 728,552" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="740" y="537" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">strategy  1</text>
+<rect x="350" y="565" width="740" height="120" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="352" y="567" width="736" height="74" fill="#eef2f7"/>
+<text x="720.0" y="593" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="21" text-anchor="middle" fill="#111827">«interface»</text>
+<text x="720.0" y="625" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">OperationStrategy</text>
+<polyline points="350,641 1090,641" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="366" y="675" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+execute(left: double, right: double): double</text>
+<polyline points="190,790 190,740 440,740 440,703" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="440,685 429,703 451,703" fill="white" stroke="#374151" stroke-width="2"/>
+<polyline points="540,790 540,740 620,740 620,703" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="620,685 609,703 631,703" fill="white" stroke="#374151" stroke-width="2"/>
+<polyline points="900,790 900,740 820,740 820,703" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="820,685 809,703 831,703" fill="white" stroke="#374151" stroke-width="2"/>
+<polyline points="1250,790 1250,740 1000,740 1000,703" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1000,685 989,703 1011,703" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="20" y="790" width="330" height="133" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="22" y="792" width="326" height="50" fill="#eef2f7"/>
+<text x="185.0" y="826" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">AddStrategy</text>
+<polyline points="20,842 350,842" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="36" y="876" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+execute(left: double,</text>
+<text x="36" y="906" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827"> right: double): double</text>
+<rect x="370" y="790" width="330" height="133" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="372" y="792" width="326" height="50" fill="#eef2f7"/>
+<text x="535.0" y="826" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">SubtractStrategy</text>
+<polyline points="370,842 700,842" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="386" y="876" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+execute(left: double,</text>
+<text x="386" y="906" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827"> right: double): double</text>
+<rect x="730" y="790" width="330" height="133" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="732" y="792" width="326" height="50" fill="#eef2f7"/>
+<text x="895.0" y="826" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">MultiplyStrategy</text>
+<polyline points="730,842 1060,842" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="746" y="876" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+execute(left: double,</text>
+<text x="746" y="906" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827"> right: double): double</text>
+<rect x="1080" y="790" width="330" height="133" fill="white" stroke="#374151" stroke-width="2"/>
+<rect x="1082" y="792" width="326" height="50" fill="#eef2f7"/>
+<text x="1245.0" y="826" font-family="Noto Sans, sans-serif" font-weight="bold" font-size="26" text-anchor="middle" fill="#111827">DivideStrategy</text>
+<polyline points="1080,842 1410,842" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="1096" y="876" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827">+execute(left: double,</text>
+<text x="1096" y="906" font-family="Noto Sans Mono, monospace" font-weight="normal" font-size="22" text-anchor="start" fill="#111827"> right: double): double</text>
+<text x="720" y="958" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="21" text-anchor="middle" fill="#111827">Solid arrow: reference    Dashed triangle: implements    Dashed arrow: uses</text>
+<text x="720" y="990" font-family="Noto Sans, sans-serif" font-weight="normal" font-size="20" text-anchor="middle" fill="#111827">Main creates Add, Subtract, Multiply; ExtensionDemo creates Add, Divide, Multiply.</text>
+</svg>

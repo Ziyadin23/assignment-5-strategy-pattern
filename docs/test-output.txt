@@ -1,0 +1,36 @@
+PASS addition of positive operands
+PASS addition with negative operands
+PASS addition of fractions
+PASS subtraction preserves operand order
+PASS subtraction of negatives
+PASS subtraction of fractions
+PASS multiplication with a negative operand
+PASS multiplication by zero
+PASS multiplication of fractions
+PASS context reuses the selected strategy
+PASS one context switches all strategies and switches back
+PASS context forwards both operands exactly once
+PASS context accepts an unfamiliar implementation
+PASS constructor rejects a null strategy
+PASS rejected null replacement preserves the old strategy
+PASS context propagates a strategy failure
+PASS interactive mode switches algorithms
+PASS unknown operation does not prevent the next calculation
+PASS malformed number does not prevent the next calculation
+PASS wrong number of arguments is explained
+PASS blank lines are ignored
+PASS end of input exits cleanly
+PASS commands accept case and whitespace variations
+PASS help allows calculation afterwards
+PASS NaN is rejected at the console boundary
+PASS infinite input is rejected at the console boundary
+PASS default demonstration shows the expected results
+Tests: 27 passed, 0 failed
+PASS division of positive operands
+PASS division with a fractional result
+PASS division with a negative operand
+PASS division with a zero numerator
+PASS positive zero divisor is rejected
+PASS negative zero divisor is rejected
+PASS one original context accepts the extension and switches back
+Tests: 7 passed, 0 failed

@@ -1,0 +1,4 @@
+One Calculator object; operands stay 12 and 4.
+AddStrategy: 16.0
+SubtractStrategy: 8.0
+MultiplyStrategy: 48.0

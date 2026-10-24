@@ -1,0 +1,4 @@
+One Calculator object; an extra strategy needs no context changes.
+AddStrategy: 16.0
+DivideStrategy: 3.0
+MultiplyStrategy: 48.0
